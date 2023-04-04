@@ -14,8 +14,9 @@
 	           We are raising millionaires in IT.
 	We offer Training for DevOps with Linux and Cloud equipping IT Engineers for best performance.
 	Class32 will start on April 15, 2023. </h1>
-	<h1> May your hardwork and consistency lead to your utmost desires and may you get everything in life which you asked for</h1> 
-<hr>
+	<h1> May your hardwork and consistency lead to your utmost desires and may you get everything in life which you asked for because we are winners at landmark </h1> 
+<h1>Winners never quit and quitters never win </h1>
+	<hr>
 <br>
 	<h1><h3> Server Side IP Address </h3><br>
 
