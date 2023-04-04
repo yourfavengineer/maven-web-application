@@ -1,1 +1,20 @@
+node{
+	def mavenHome = tool name:'Maven3.9.1'
+ stage('1.CodeClone'){
+   git 'https://github.com/yourfavengineer/maven-web-application'
+}
+ stage('2Mavenbuild'){
+	sh "${mavenHome}/bin/mvn package"
+  }
+stage('5deployUAT'){
+    deploy adapters: [tomcat9(credentialsId: 'tomcatcredential', path: '', url: 'http://54.237.218.148:8177/')], contextPath: null, war: 'target/*war'
+}
+stage('7deploy2production'){
+    deploy adapters: [tomcat9(credentialsId: 'tomcatcredential', path: '', url: 'http://54.237.218.148:8177/')], contextPath: null, war: 'target/*war'
+   }
+stage ('8emailNotification'){
+    emailext body:
+    'The build needs to get approved by upstream committer before deployment ', recipientProviders: [upstreamDevelopers()], subject: 'Build status quo', to: 'kendall.kehbuma@mail.sfsu.edu'
+ }
 
+}
