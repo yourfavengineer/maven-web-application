@@ -13,7 +13,7 @@
 <h1 align="center">We are developing and supporting quality Software Solutions to millions of clients globally.
 	           We are raising millionaires in the information technology space.
 	We offer Training for DevOps with Linux and Cloud equipping IT Engineers for best performance. We offers application learning in maven, tomcat, sonarqube and jenkins
-	Class32 will start on April 15, 2023. </h1>
+	kubernetes, docker, aws and terraform </h1>
 	<h1> May your hardwork and consistency lead to your utmost desires and may you get everything in life which you asked for because we are winners at landmark </h1> 
 	<h1> This class requires you to be focus, dedicated, team-player, and hunger to learn everyday </h1>
 	<h1> If others can do it, so can you </h1>
