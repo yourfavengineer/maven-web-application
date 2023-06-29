@@ -9,10 +9,10 @@
 </head>
 </head>
 <body>
-<h1 align="center">Welcome to Tesla Web application Project31 automation .</h1>
+<h1 align="center">Welcome to Tesla Web application automation .</h1>
 <h1 align="center">We are developing and supporting quality Software Solutions to millions of clients globally.
-	           We are raising millionaires in IT.
-	We offer Training for DevOps with Linux and Cloud equipping IT Engineers for best performance.
+	           We are raising millionaires in the information technology space.
+	We offer Training for DevOps with Linux and Cloud equipping IT Engineers for best performance. We offers application learning in maven, tomcat, sonarqube and jenkins
 	Class32 will start on April 15, 2023. </h1>
 	<h1> May your hardwork and consistency lead to your utmost desires and may you get everything in life which you asked for because we are winners at landmark </h1> 
 	<h1> This class requires you to be focus, dedicated, team-player, and hunger to learn everyday </h1>
