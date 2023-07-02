@@ -1,0 +1,21 @@
+node {
+	def mavenhome = tool name: 'maven'
+    stage('1.Codeclone'){
+        git 'https://github.com/yourfavengineer/maven-web-application'
+    }
+    stage('2MavenBuild&Test'){
+    sh "${mavenhome}/bin/mvn package"
+}
+    stage('3CodeQuality'){
+    sh "${mavenhome}/bin/mvn sonar:sonar"
+}  
+    stage('4UploadArtifacts'){
+    sh "${mavenhome}/bin/mvn deploy"
+    }
+    stage('5Manualapporval'){
+    sh "echo 'ready for review'"
+    timeout(time:5, unit:'DAYS'){
+    input message: 'Application ready for deployment, please review and submit'
+		}
+	}
+}
