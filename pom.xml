@@ -10,7 +10,7 @@
 	
 	<name>maven-web-application</name>
 
-	<description>Maven Web Project for Java Project</description>
+	<description>This is my very first successful Maven web app Java Project</description>
 
 	<organization>
 		<name>Landmark Technologies</name>
