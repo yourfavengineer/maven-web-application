@@ -1,0 +1,24 @@
+node{
+    def mavenHome = tool name: 'Maven 3.9.5'
+	stage('1.CodeClone'){
+	git credentialsId: 'githubCredentials', url: 'https://github.com/yourfavengineer/maven-web-application'
+}	
+	stage('2MavenBuild'){
+	sh "${mavenHome}/bin/mvn package"
+}	
+    stage('3COdeQuality'){
+	sh "${mavenHome}/bin/mvn sonar:sonar"
+}
+    stage('4UploadArtifacts'){
+	sh "${mavenHome}/bin/mvn deploy"
+}
+    stage('5ManualApprocval'){
+    sh "echo 'ready for review' " 
+    timeout(time:5, unit:'HOURS'){ 
+        input message: 'Application ready for deployment, please review and approve'
+    } 
+}
+    stage('6EMailNotification'){
+    emailext body: 'hey Engineer, the following application has been approved and deployed to production', recipientProviders: [developers()], subject: 'succesful deployment', to: 'kendall858@outlook.com'
+    }
+}
