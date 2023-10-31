@@ -15,7 +15,7 @@
 	We offer Training for DevOps with Linux and Cloud equipping IT Engineers for best performance. We offers application learning in maven, tomcat, sonarqube and jenkins
 	kubernetes, Nginx, Ansible, Python, Docker, AWS, and terraform </h1>
 	<h1> May your hardwork and consistency lead to your utmost desires and may you get everything in life which you asked for because we are winners at landmark </h1> 
-	<h1> This class requires you to be focus, dedicated, team-player, and hunger to learn everyday </h1>
+	<h1> This class requires you to be focus, dedicated, team-player, and hunger to learn everyday, as application and consistency drives automation. </h1>
 	<h1> If others can do it, so can you </h1>
 	<h1>Winners never quit and quitters never win </h1>
 	<hr>
